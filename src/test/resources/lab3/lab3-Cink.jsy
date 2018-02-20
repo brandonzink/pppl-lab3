@@ -1,0 +1,2 @@
+const f = function f(x) { return x === 1 ? 1 : x + f(x * (1/2)) };
+f(16) + 0.1
